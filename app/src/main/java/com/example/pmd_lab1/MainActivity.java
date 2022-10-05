@@ -1,7 +1,6 @@
 package com.example.pmd_lab1;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
@@ -12,6 +11,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /**
+     *
+     * @param a integer number
+     * @param b integer number
+     * @return Minimum between a and b
+     */
+
     public static int Min(int a, int b)
     {
         if (a < b)
@@ -19,6 +25,13 @@ public class MainActivity extends AppCompatActivity {
         else
             return b;
     }
+
+    /**
+     *
+     * @param a integer number
+     * @param b integer number
+     * @return Maximum between a and b
+     */
 
     public static int Max(int a, int b)
     {
